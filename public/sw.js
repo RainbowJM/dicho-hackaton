@@ -1,5 +1,6 @@
-const staticCacheName = 'site-static-v1';
+const staticCacheName = 'site-static-v3';
 const assets = [
+    "/",
     "/offline", 
     "/styles/styles.css",
     "/script/loading.js",
