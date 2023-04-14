@@ -3,7 +3,6 @@
 
 <head>
     <%- include('./partials/head'); %>
-    <script src="https://inputtools.google.com/js/ime.js"></script>
 </head>
 
 <body id="generate">
@@ -25,7 +24,7 @@
 
         <section>
             <form action="/loading">
-                <h2>Make your own poem</h2>
+                <h2>Make your poem</h2>
                 <label for="input-text">Choose a theme</label>
                 <textarea id="input-text" rows="8" placeholder="Enter your input here..."></textarea>
                 <button type="submit">Generate</button>
@@ -38,27 +37,7 @@
 
     <%- include('./partials/background-decoration'); %>
 
-    <%- include('partials/footer.ejs'); %>
-
-
-    <!-- <script>
-        var ime;
-        function onApiLoad() {
-          ime = new google.inputmethod.InputMethodManager();
-        }
-        function openKeyboard() {
-          ime.showInputView(document.getElementById('myTextarea'));
-        }
-    
-        var textarea = document.getElementById("myTextarea");
-        textarea.addEventListener("click", function() {
-          openKeyboard();
-        });
-      </script> -->
-
 <script src="./scripts/preview.js"></script>
-<script src="./scripts/keyboard.js"></script>
-
 
 </body>
 
