@@ -3,7 +3,7 @@
 
 <head>
     <%- include('./partials/head'); %>
-    <script src="./scripts/loading.js" defer></script>
+    <!-- <script src="./scripts/loading.js" defer></script> -->
 </head>
 
 <body id="start">
@@ -29,8 +29,10 @@
 
     <%- include('./partials/background-decoration'); %>
 
-    <%- include('partials/footer.ejs'); %>
+    <footer>
+        <%- include('./partials/footer');%>
+    </footer>
+    <script src="./scripts/loading.js"></script>
 </body>
-
 
 </html>
